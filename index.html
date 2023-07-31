@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-17</title>
+    <style>
+        .square {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border: 1px solid #ccc;
+            animation-name: change-color;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes change-color {
+            from {
+                background-color: #f49bad;
+            }
+            50% {
+                background-color: rgb(80, 54, 45);
+            }
+            to {
+                border-color: rgb(19, 19, 225);
+            }
+        }
+        /* div {
+            display: flex;
+            margin: 200px auto;
+            width: 200px;
+            height: 200px;
+            background-color: #c6aaa1;
+            animation: square 5s infinite alternate ease 2s;
+        }
+        
+        @keyframes square {
+            0% {
+                opacity: 0;
+                border-radius: 50%;
+            }
+            20% {
+                opacity: 0.2;
+                border-radius: 40%;
+            }
+            50% {
+                opacity: 0.5;
+                border-radius: 30%;
+            }
+            100% {
+                opacity: 1;
+                border-radius: 0;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="square"></div>
+</body>
+
+</html>
